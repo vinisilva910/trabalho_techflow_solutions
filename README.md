@@ -13,6 +13,27 @@ Este projeto é um gerenciador simples de tarefas desenvolvido em Python. Ele pe
 - Testes automatizados com pytest
 
 ---
+## 🧪 Como executar o projeto
+
+Execute o comando:
+
+pytest
+
+Ou, se necessário:
+
+python -m pytest
+
+
+⚙️ Integração Contínua (GitHub Actions)
+
+Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
+
+O workflow executa:
+
+Instalação de dependências
+Execução dos testes com pytest
+
+---
 
 ## 📁 Estrutura do Projeto
 
@@ -31,6 +52,12 @@ tests/
 
 
 ---
+## 🧠 Tecnologias utilizadas
+Python 3
+Pytest
+GitHub Actions
+📌 Autor Vinicius de Souza 
+
 
 ## 🚀 Como executar o projeto
 
@@ -53,35 +80,5 @@ pip install -r requirements.txt
 Se não houver requirements.txt, instalar manualmente:
 
 pip install pytest
-
 ---
 
-## 🧪 Como rodar os testes
-
-Execute o comando:
-
-pytest
-
-Ou, se necessário:
-
-python -m pytest
-
----
-## ⚙️ Integração Contínua (GitHub Actions)
-
-Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
-
-O workflow executa:
-
-Instalação de dependências
-Execução dos testes com pytest
-
----
-
-## 🧠 Tecnologias utilizadas
-Python 3
-Pytest
-GitHub Actions
-📌 Autor Vinicius de Souza 
-
-Projeto desenvolvido para fins de estudo/prática de Python e testes automatizados.
