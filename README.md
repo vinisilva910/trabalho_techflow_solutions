@@ -56,7 +56,7 @@ pip install pytest
 
 ---
 
-🧪 Como rodar os testes
+## 🧪 Como rodar os testes
 
 Execute o comando:
 
@@ -67,7 +67,7 @@ Ou, se necessário:
 python -m pytest
 
 ---
-⚙️ Integração Contínua (GitHub Actions)
+## ⚙️ Integração Contínua (GitHub Actions)
 
 Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
 
@@ -77,19 +77,8 @@ Instalação de dependências
 Execução dos testes com pytest
 
 ---
-📦 Exemplo de uso
-from src.tasks import TaskManager
 
-manager = TaskManager()
-
-manager.criar_tarefa("Estudar Python")
-manager.concluir_tarefa(1)
-
-print(manager.tasks)
-
----
-
-🧠 Tecnologias utilizadas
+## 🧠 Tecnologias utilizadas
 Python 3
 Pytest
 GitHub Actions
