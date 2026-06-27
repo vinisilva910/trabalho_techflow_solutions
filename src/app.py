@@ -10,7 +10,7 @@ while True:
     print("3 - Concluir tarefa")
     print("4 - Remover tarefa")
     print("5 - Sair")
-
+    print("=====================")
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":

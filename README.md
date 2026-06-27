@@ -2,6 +2,18 @@
 
 Este projeto é um gerenciador simples de tarefas desenvolvido em Python. Ele permite criar e concluir tarefas, além de possuir testes automatizados para garantir o funcionamento correto das funcionalidades.
 
+## 🔄 Gestão de Mudanças
+
+Durante o desenvolvimento do projeto, não houve alteração significativa no escopo funcional inicialmente proposto. No entanto, ocorreram ajustes e melhorias na implementação para garantir melhor organização, compatibilidade e boas práticas de desenvolvimento.
+
+Entre as principais adaptações realizadas estão:
+
+- Organização do projeto no padrão `src/` para melhorar estrutura e compatibilidade com testes
+- Ajustes nos imports e configuração do ambiente para funcionamento correto com pytest
+- Refinamento do workflow de integração contínua no GitHub Actions
+- Pequenas melhorias na estrutura da classe TaskManager para maior clareza
+
+Essas mudanças foram realizadas com o objetivo de melhorar a qualidade técnica e a manutenção do projeto.
 ---
 
 ## 📌 Funcionalidades
@@ -23,8 +35,8 @@ Ou, se necessário:
 
 python -m pytest
 
-
-⚙️ Integração Contínua (GitHub Actions)
+---
+##⚙️ Integração Contínua (GitHub Actions)
 
 Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
 
