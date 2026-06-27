@@ -35,28 +35,16 @@ Execução dos testes com pytest
 
 ---
 
-## 📁 Estrutura do Projeto
-
-
-src/
-│
-├── init.py
-└── tasks.py
-
-tests/
-└── test_tasks.py
-
-.github/
-└── workflows/
-└── python.yml
-
-
----
 ## 🧠 Tecnologias utilizadas
 Python 3
+
 Pytest
+
 GitHub Actions
-📌 Autor Vinicius de Souza 
+
+Autor Vinicius de Souza 
+
+---
 
 
 ## 🚀 Como executar o projeto
@@ -77,7 +65,6 @@ source venv/bin/activate
 3. Instalar dependências
 pip install -r requirements.txt
 
-Se não houver requirements.txt, instalar manualmente:
 
 pip install pytest
 ---
