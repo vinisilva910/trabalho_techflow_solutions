@@ -1,29 +1,98 @@
-# TaskFlow - Sistema de Gerenciamento de Tarefas
+# TaskManager - Projeto em Python
 
-Projeto desenvolvido para a disciplina de Engenharia de Software.
+Este projeto é um gerenciador simples de tarefas desenvolvido em Python. Ele permite criar e concluir tarefas, além de possuir testes automatizados para garantir o funcionamento correto das funcionalidades.
 
-## Objetivo
+---
 
-Permitir o gerenciamento de tarefas utilizando conceitos de metodologias ágeis.
+## 📌 Funcionalidades
 
-## Metodologia
+- Criar tarefas
+- Listar tarefas armazenadas
+- Marcar tarefas como concluídas
+- Estrutura simples e modular
+- Testes automatizados com pytest
 
-Foi utilizado Kanban para organização das atividades.
+---
 
-## Funcionalidades
+## 📁 Estrutura do Projeto
 
-Criar tarefas
 
-Listar tarefas
+src/
+│
+├── init.py
+└── tasks.py
 
-Concluir tarefas
+tests/
+└── test_tasks.py
 
-Remover tarefas
+.github/
+└── workflows/
+└── python.yml
 
-## Mudança de Escopo
 
-Inicialmente o sistema apenas criava e listava tarefas. Posteriormente foi adicionada a funcionalidade de marcar tarefas como concluídas, atendendo a uma necessidade do cliente de acompanhar o progresso da equipe.
+---
 
-## Testes Automatizados
+## 🚀 Como executar o projeto
 
-Os testes são executados automaticamente pelo GitHub Actions a cada push no repositório.
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/vinisilva910/trabalho_techflow_solutions
+cd trabalho_techflow_solutions
+2. Criar ambiente virtual (opcional, recomendado)
+python -m venv venv
+
+Ativar o ambiente:
+
+Windows:
+venv\Scripts\activate
+Linux/Mac:
+source venv/bin/activate
+3. Instalar dependências
+pip install -r requirements.txt
+
+Se não houver requirements.txt, instalar manualmente:
+
+pip install pytest
+
+---
+
+🧪 Como rodar os testes
+
+Execute o comando:
+
+pytest
+
+Ou, se necessário:
+
+python -m pytest
+
+---
+⚙️ Integração Contínua (GitHub Actions)
+
+Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
+
+O workflow executa:
+
+Instalação de dependências
+Execução dos testes com pytest
+
+---
+📦 Exemplo de uso
+from src.tasks import TaskManager
+
+manager = TaskManager()
+
+manager.criar_tarefa("Estudar Python")
+manager.concluir_tarefa(1)
+
+print(manager.tasks)
+
+---
+
+🧠 Tecnologias utilizadas
+Python 3
+Pytest
+GitHub Actions
+📌 Autor Vinicius de Souza 
+
+Projeto desenvolvido para fins de estudo/prática de Python e testes automatizados.
