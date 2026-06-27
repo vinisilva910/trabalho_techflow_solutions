@@ -36,16 +36,6 @@ Ou, se necessário:
 python -m pytest
 
 ---
-##⚙️ Integração Contínua (GitHub Actions)
-
-Este projeto utiliza GitHub Actions para rodar testes automaticamente a cada push.
-
-O workflow executa:
-
-Instalação de dependências
-Execução dos testes com pytest
-
----
 
 ## 🧠 Tecnologias utilizadas
 Python 3
